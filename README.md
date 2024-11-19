@@ -14,8 +14,8 @@ The current website has several areas for improvement: smoker rental and custom 
 
 The website should convey a lively and appetizing mood to tempt visitors to try the barbecue offerings. For design inspiration, 
 I found two barbecue websites that align well with this concept: [Smoke and Bones BBQ](https://smokeandbones.ca) and [Butcher’s Block BBQ](http://www.butchersblockbbq.com).
-![Alt smokeandbones website](images/example1.png)
-![Alt smokeandbones website](images/example2.png)
+![Alt Smoke and Bones BBQ website](images/example1.png)
+![Alt Butcher’s Block BBQ website](images/example2.png)
 
 ### Colors
 - **Primary**: `#FED766`
