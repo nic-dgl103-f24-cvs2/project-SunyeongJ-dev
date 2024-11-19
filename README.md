@@ -23,7 +23,7 @@ I found two barbecue websites that align well with this concept: [Smoke and Bone
 - **Highlight**: `#FE4A49`
 
 ### Images
-Existing logos and photos from the original site will be used.
+Existing logos and photos from the original site will be used. Photos from unplash will be used as well.
 
 ### Fonts
 Since there are no specific brand typefaces, I plan to use:
@@ -45,7 +45,7 @@ Since there are no specific brand typefaces, I plan to use:
 **Hero Section**
 - **Heading**: "Indulge in Mouthwatering Smoked Brisket"
 - **Paragraph**: "Experience the best Barbecue Brisket in the Comox Valley."
-- **Image**: Big Brisket Barbecue official image
+- **Image**: Brisket barbeque image from unplash
 - **Button**: "Contact Us" (scrolls down to contact section)
 
 **About Section**
