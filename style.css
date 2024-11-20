@@ -98,7 +98,7 @@ header div a {
 /* -------- About Section --------- */
 
 .about {
-    background-color: #F4F4F8;
+    background-color: #fffcf0;
     text-align: center;
     padding: 20px;
 }
@@ -120,9 +120,13 @@ header div a {
 /* -------- Location -------- */
 
 .location {
-    background-color: #fff5d8;
+    background-color: #040706;
     text-align: center;
     padding: 40px 10px;
+}
+
+.location h2 {
+    color: #FED766;
 }
 
 .location ul {
@@ -131,9 +135,9 @@ header div a {
 }
 
 .location li {
-    color: black;
+    color: white;
     margin: 5px;
-    border-bottom: 1px solid #04070673;
+    border-bottom: 1px solid #ffffff73;
 }
 
 .location iframe {
@@ -146,11 +150,15 @@ header div a {
     border-spacing: 20px 10px;
 }
 
+.location td {
+    color: white;
+}
+
 /* ------- Contact Section -------- */
 
 #contact { 
     text-align: center;
-    background-color: #F4F4F8;
+    background-color: #fffcf0;
     padding: 40px 10px;
 }
 
@@ -172,4 +180,41 @@ header div a {
     border: 0px;
     border-radius: 5px;
     box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+
+/* -------- Footer -------- */
+
+footer .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 10%;
+}
+
+footer ul {
+    display: flex;
+}
+
+footer li {
+    padding-right: 10px;
+}
+
+footer li a {
+    font-size: 1.2rem;
+}
+
+footer .icons {
+    display: flex;
+}
+
+footer a {
+    padding-right: 10px;
+}
+
+footer p {
+    color: #FED766;
+    font-size: 1.0rem;
+    padding: 0 20px;
+    text-align: center;
+    margin-top: 10px;
 }
