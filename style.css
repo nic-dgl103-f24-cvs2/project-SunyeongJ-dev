@@ -25,6 +25,7 @@ a {
 h1, h2, h3 {
     font-family: "Playfair Display", serif;
     color: #FE4A49;
+    margin: 0;
 }
 
 p {
@@ -45,6 +46,7 @@ header div {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    border-bottom: 1px solid #FED766;
 }
 
 header div a {
@@ -56,15 +58,40 @@ header div a {
     justify-content: space-around;
     padding-right: 10%;
     margin: 0;
-    border-top: 1px solid #FED766;
+    border-bottom: 1px solid #FED766;
 }
 
 #navbar li {
-    padding-top: 15px;
+    padding: 15px 0;
 }
 
 #navbar a {
     text-decoration: underline;
 }
 
+/* -------- Hero Section --------- */
 
+.hero {
+    background-image: url("images/brisket.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    padding: 40px;
+}
+
+.hero h1, .hero p, .hero a {
+    color: white;
+    text-shadow: 1px 1px 2px black;
+}
+
+.hero div {
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+.hero a {
+    background-color: #FED766;
+    padding: 5px 10px;
+    margin: 10px 5px;
+    border-radius: 5px;
+}
