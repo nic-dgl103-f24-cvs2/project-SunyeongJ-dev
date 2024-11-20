@@ -126,19 +126,27 @@ header div a {
     padding: 40px 10px;
 }
 
+.location .container {
+    margin: 20px;
+}
+
+.location div {
+    margin-bottom: 40px;
+}
+
 .location h2 {
     color: #FED766;
 }
 
 .location ul {
     text-align: start;
-    margin: 30px 40px;
 }
 
 .location li {
     color: white;
     margin: 5px;
     border-bottom: 1px solid #ffffff73;
+    padding: 5px;
 }
 
 .location iframe {
@@ -148,7 +156,7 @@ header div a {
 .location table {
     margin: auto;
     text-align: start;
-    border-spacing: 20px 10px;
+    border-spacing: 10px 10px;
 }
 
 .location td {
@@ -226,7 +234,7 @@ footer p {
         width: 1130px;
     }
 
-    p {
+    p, li {
         font-size: 1.6rem;
     }
 
@@ -318,5 +326,38 @@ footer p {
         flex-basis: 50%;
         margin: auto;
         padding: 60px;
+    }
+
+    /* Location */
+    .location {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-top: 60px;
+    }
+
+    .location .container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 0 105px;
+    }
+
+    .location ul {
+        margin-top: 30px;
+    }
+
+    .location table {
+        border-spacing: 40px 20px; 
+    }
+
+    .location td {
+        font-size: 1.6rem;
+    }
+
+    iframe {
+        width: 600px;
+        height: 500px;
     }
 }
