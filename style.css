@@ -25,11 +25,12 @@ a {
 h1, h2, h3 {
     font-family: "Playfair Display", serif;
     color: #FE4A49;
-    margin: 0;
+    margin: 20px 0;
 }
 
 p {
     color: #040706;
+    margin: 20px 0;
 }
 
 /* --------- Utility --------- */
@@ -80,6 +81,10 @@ header div a {
     text-shadow: 1px 1px 2px black;
 }
 
+.hero h1 {
+    margin-top: 0;
+}
+
 .hero div {
     margin-top: 20px;
     margin-bottom: 10px;
@@ -90,4 +95,22 @@ header div a {
     padding: 5px 10px;
     margin: 10px 5px;
     border-radius: 5px;
+}
+
+/* -------- About Section --------- */
+
+.about {
+    background-color: #F4F4F8;
+    text-align: center;
+    padding: 20px;
+}
+
+.about div {
+    margin: 40px 0;
+    padding: 0 10px;
+}
+
+.about img {
+    border-radius: 50%;
+    height: 240px;
 }
