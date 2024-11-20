@@ -360,4 +360,28 @@ footer p {
         width: 600px;
         height: 500px;
     }
+
+    /* Contact */
+    #contact {
+        padding: 120px;
+    }
+
+    #contact label {
+        margin-top: 10px;
+        font-size: 1.6rem;
+    }
+
+    #contact div {
+        padding: 10px 120px;
+    }
+
+    #contact input {
+        padding: 10px;
+        font-size: 1.6rem;
+    }
+
+    #contact .button {
+        padding: 20px 30px;
+        margin: 40px 220px 0 220px;
+    }
 }
