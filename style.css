@@ -264,7 +264,7 @@ footer p {
     }
 
     header img {
-        width: 200px;
+        width: 220px;
     }
 
     .icon {
@@ -383,5 +383,42 @@ footer p {
     #contact .button {
         padding: 20px 30px;
         margin: 40px 220px 0 220px;
+    }
+
+    /* Footer */
+    footer .container {
+        padding-right: 5%;
+        justify-content: space-around;
+    }
+
+    footer img {
+        flex-grow: 1;
+    }
+
+    footer nav {
+        flex-grow: 5;
+    }
+
+    footer div {
+        flex-grow: 1;
+        display: flex;
+        justify-content: space-around;
+    }
+
+    footer ul {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    footer li a {
+        font-size: 1.6rem;
+    }
+
+    footer a {
+        font-size: 3rem;
+    }
+
+    footer p {
+        font-size: 1.4rem;
     }
 }
