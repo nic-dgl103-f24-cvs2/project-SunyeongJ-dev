@@ -77,7 +77,7 @@ header div a {
     padding: 40px;
 }
 
-.hero h1, .hero p, .hero a {
+.hero h1, .hero p {
     color: white;
     text-shadow: 1px 1px 2px black;
 }
@@ -89,6 +89,7 @@ header div a {
 
 .hero a {
     background-color: #FED766;
+    color: black;
     padding: 5px 10px;
     margin: 10px 5px;
     border-radius: 5px;
@@ -119,8 +120,9 @@ header div a {
 /* -------- Location -------- */
 
 .location {
-    background-color: #F4F4F8;
+    background-color: #fff5d8;
     text-align: center;
+    padding: 40px 10px;
 }
 
 .location ul {
@@ -142,11 +144,32 @@ header div a {
     margin: auto;
     text-align: start;
     border-spacing: 20px 10px;
-    padding-bottom: 30px;
 }
 
 /* ------- Contact Section -------- */
 
 #contact { 
+    text-align: center;
     background-color: #F4F4F8;
+    padding: 40px 10px;
+}
+
+#contact form {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+#contact label {
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+#contact .button {
+    margin: 30px 80px 0px 80px;
+    padding: 10px;
+    background-color: #FED766;
+    border: 0px;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
 }
