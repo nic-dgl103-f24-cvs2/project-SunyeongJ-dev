@@ -13,6 +13,7 @@ body {
 
 ul {
     list-style-type: none;
+    padding: 0;
 }
 
 a {
@@ -57,7 +58,7 @@ header div a {
 #navbar {
     display: none;
     justify-content: space-around;
-    padding-right: 10%;
+    padding: 0 10%;
     margin: 0;
     border-bottom: 1px solid #FED766;
 }
@@ -114,3 +115,37 @@ header div a {
     border-radius: 50%;
     height: 240px;
 }
+
+/* -------- Location -------- */
+
+.location {
+    background-color: #F4F4F8;
+    text-align: center;
+}
+
+.location h2 {
+    margin-top: 0;
+}
+
+.location ul {
+    text-align: start;
+    margin: 30px 40px;
+}
+
+.location li {
+    color: black;
+    margin: 5px;
+    border-bottom: 1px solid #04070673;
+}
+
+.location iframe {
+    margin-bottom: 30px;
+}
+
+.location table {
+    margin: auto;
+    text-align: start;
+    border-spacing: 20px 10px;
+    padding-bottom: 30px;
+}
+
