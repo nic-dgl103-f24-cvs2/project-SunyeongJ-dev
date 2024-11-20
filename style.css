@@ -218,3 +218,65 @@ footer p {
     text-align: center;
     margin-top: 10px;
 }
+
+/* -------- Large Devices (desktops, 1200px and up) -------- */
+@media only screen and (min-width: 1200px) {
+    .content-width {
+        width: 1130px;
+    }
+
+    /* Header */
+    header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        border-bottom: 1px solid #FED766;
+        padding: 0 30px;
+    }
+
+    header div {
+        border: 0px;
+    }
+
+    header img {
+        width: 200px;
+    }
+
+    .icon {
+        display: none;
+    }
+
+    header nav {
+        flex-basis: 70%;
+    }
+
+    #navbar {
+        display: flex;
+        border: 0px;
+    }
+
+    #navbar a {
+        font-size: 1.8rem;
+    }
+
+    /* Hero */
+    .hero {
+        padding: 140px 60px;
+    }
+
+    .hero h1 {
+        font-size: 5rem;
+    }
+
+    .hero p {
+        font-size: 1.8rem;
+        padding-bottom: 20px;
+    }
+
+    .hero a {
+        padding: 10px 40px;
+        margin: 20px 20px;
+        font-size: 1.8rem;
+    }
+
+}
