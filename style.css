@@ -228,6 +228,15 @@ footer p {
     margin-top: 10px;
 }
 
+/* Menu Page */
+.menu-page {
+    background-color: #fffcf0;
+}
+
+.menu-hero {
+    background-color: #FED766;
+}
+
 /* -------- Large Devices (desktops, 1200px and up) -------- */
 @media only screen and (min-width: 1200px) {
     .content-width {
