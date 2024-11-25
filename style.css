@@ -284,7 +284,8 @@ footer img {
 
 .menu-hero p {
     margin: 5px;
-    color: #040706
+    color: #040706;
+    font-family: "Playfair Display", serif;
 }
 
 .menu-section {
@@ -370,7 +371,7 @@ div .no-border {
     }
 
     #navbar a {
-        font-size: 1.8rem;
+        font-size: 2.4rem;
     }
 
     /* Hero */
@@ -500,7 +501,7 @@ div .no-border {
     }
 
     footer li a {
-        font-size: 1.6rem;
+        font-size: 2rem;
     }
 
     footer a {
@@ -508,6 +509,74 @@ div .no-border {
     }
 
     footer p {
-        font-size: 1.4rem;
+        font-size: 1.6rem;
+    }
+
+    /* Menu Page */
+    .menu-hero {
+        display: flex;
+        align-items: center;
+    }
+
+    .menu-hero img {
+        width: 50%;
+    }
+
+    .menu-hero div {
+        box-shadow: none;
+        text-align: center;
+        flex-grow: 1;
+    }
+
+    .menu-hero h1 {
+        font-size: 3.6rem;
+    }
+
+    .menu-hero p {
+        font-size: 2.2rem;
+        margin-top: 10px;
+    }
+
+    .menu-section {
+        padding: 80px;
+    }
+
+    .menu-section h2 {
+        font-size: 3rem;
+        margin-bottom: 60px;
+    }
+
+    .menu-section h3 {
+        font-size: 3.2rem;
+    }
+
+    .menu-section h4, .menu-section .price {
+        font-size: 2.6rem;
+    }
+
+    .menu-section p {
+        font-size: 1.8rem;
+    }
+
+    .menu-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .menu-container div {
+        flex-basis: 48%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-content: start;
+    }
+
+    .menu-container p:last-child {
+        flex-basis: 100%;
+    }
+
+    .menu-section .menu-category {
+        margin-bottom: 40px;
     }
 }
