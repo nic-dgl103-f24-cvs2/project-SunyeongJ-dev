@@ -236,7 +236,32 @@ footer p {
 
 .menu-page h1, .menu-page h2, .menu-page h3 {
     color: #040706;
+}
+
+.menu-page h1 {
     font-size: 2.1rem;
+}
+
+.menu-page h2 {
+    font-size: 1.8rem;
+    margin: 10px 0;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.menu-page h3 {
+    font-size: 2.2rem;
+    margin: 5px 0;
+}
+
+.menu-page h4 {
+    font-size: 1.6rem;
+    margin: 5px 0;
+}
+
+.menu-page p {
+    margin: 5px 0px;
+    color: #4b4b4b;
 }
 
 .menu-hero {
@@ -255,12 +280,38 @@ footer p {
 
 .menu-hero p {
     margin: 5px;
+    color: #040706
 }
 
 .menu-section {
-    padding: 30px;
+    padding: 40px 30px;
 }
 
+.menu-section .price {
+    color:#040706;
+    font-weight: 600;
+}
+
+.menu-section div {
+    margin-bottom: 20px;
+}
+
+.menu-section .menu-category {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.menu-container {
+    padding-bottom: 20px;
+    margin-bottom: 30px;
+    border-bottom: 1px solid #04070673;
+}
+
+div .no-border {
+    border-bottom: none;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
 
 /* -------- Large Devices (desktops, 1200px and up) -------- */
 @media only screen and (min-width: 1200px) {
