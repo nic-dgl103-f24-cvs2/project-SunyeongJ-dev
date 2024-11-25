@@ -403,7 +403,7 @@ div .no-border {
 
   /* About */
   .about {
-    padding: 60px;
+    padding: 80px 60px;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
@@ -427,6 +427,12 @@ div .no-border {
     flex-basis: 50%;
     margin: auto;
     padding: 60px;
+  }
+
+  .about .img-right {
+    order: 2;
+    margin-left: 0;
+    margin-right: 40px;
   }
 
   /* Location */
