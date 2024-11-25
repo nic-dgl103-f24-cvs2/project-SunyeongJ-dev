@@ -49,6 +49,7 @@ header div {
     justify-content: space-between;
     align-items: center;
     border-bottom: 1px solid #FED766;
+    padding-bottom: 5px;
 }
 
 header div a {
