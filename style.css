@@ -233,9 +233,33 @@ footer p {
     background-color: #fffcf0;
 }
 
+.menu-page h1, .menu-page h2, .menu-page h3 {
+    color: #040706;
+    font-size: 2.1rem;
+}
+
 .menu-hero {
     background-color: #FED766;
+    text-align: center;
 }
+
+.menu-hero img {
+    width: 100%;
+}
+
+.menu-hero div {
+    padding: 30px 20px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.menu-hero p {
+    margin: 5px;
+}
+
+.menu-section {
+    padding: 30px;
+}
+
 
 /* -------- Large Devices (desktops, 1200px and up) -------- */
 @media only screen and (min-width: 1200px) {
