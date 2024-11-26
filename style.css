@@ -27,7 +27,7 @@ h1,
 h2,
 h3 {
   font-family: "Playfair Display", serif;
-  color: #8E0101;
+  color: #8e0101;
   margin: 0;
 }
 
@@ -113,7 +113,7 @@ header div a {
 }
 
 .about p {
-    color: #4b4b4b;
+  color: #4b4b4b;
 }
 
 .about div {
@@ -332,35 +332,38 @@ div .no-border {
 .services-section {
   text-align: center;
   background-color: #fffcf0;
-  padding: 40px 0;
+}
+
+.services-section div {
+  padding: 20px 0;
 }
 
 .services-section img {
   width: 200px;
   height: 200px;
-  margin: 20px 20px;
+  margin: 20px;
   border-radius: 50%;
 }
 
 .services-section h1 {
   margin: 0;
-  padding: 20px 0;
+  padding-top: 40px;
   font-size: 1.8rem;
 }
 
 .services-section h2 {
-  color:#040706;
+  color: #040706;
 }
 
 .services-section h3 {
-  color:#040706;
+  color: #040706;
   font-family: "Roboto", sans-serif;
   margin: 10px;
 }
 
 .services-section p {
   margin: 0;
-  padding: 0 30px 20px 30px;
+  padding: 0 30px;
   color: #4b4b4b;
 }
 
