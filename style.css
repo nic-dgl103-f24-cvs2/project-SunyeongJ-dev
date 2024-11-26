@@ -328,6 +328,17 @@ div .no-border {
   padding-bottom: 0;
 }
 
+/* Services Page */
+.services-section {
+  text-align: center;
+}
+
+.services-section img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+
 /* -------- Large Devices (desktops, 1200px and up) -------- */
 @media only screen and (min-width: 1200px) {
   .content-width {
