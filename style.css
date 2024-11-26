@@ -27,7 +27,7 @@ h1,
 h2,
 h3 {
   font-family: "Playfair Display", serif;
-  color: #fe4a49;
+  color: #8E0101;
   margin: 0;
 }
 
@@ -331,12 +331,30 @@ div .no-border {
 /* Services Page */
 .services-section {
   text-align: center;
+  background-color: #fffcf0;
 }
 
 .services-section img {
   width: 200px;
   height: 200px;
   border-radius: 50%;
+}
+
+.services-section h1 {
+  margin: 0;
+}
+
+.services-section h2 {
+  color:#040706;
+}
+
+.services-section h3 {
+  color:#040706;
+  font-family: "Roboto", sans-serif;
+}
+
+.services-section p {
+  margin: 0;
 }
 
 /* -------- Large Devices (desktops, 1200px and up) -------- */
