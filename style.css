@@ -186,9 +186,25 @@ header div a {
   flex-direction: column;
 }
 
+#contact input, #contact textarea {
+  border-radius: 5px;
+  border: 1px solid #04070673;
+}
+
+#contact textarea {
+  font-family: "Roboto", sans-serif;
+  font-size: 1.6rem;
+  padding: 10px;
+  resize: none;
+}
+
 #contact label {
-  padding-top: 20px;
-  padding-bottom: 10px;
+  text-align: start;
+  padding: 20px 0 10px 10px;
+}
+
+#contact input#attachment {
+  background-color: white;
 }
 
 #contact .button {
@@ -392,6 +408,21 @@ div .no-border {
 
   h3 {
     font-size: 3rem;
+  }
+
+  nav a:hover,
+  .icons a:hover {
+    color: white;
+  }
+
+  .hero a:hover {
+    background-color: #ffbf00;
+    cursor: pointer;
+  }
+
+  #contact .button:hover {
+    background-color: #ffbf00;
+    cursor: pointer;
   }
 
   /* Header */
