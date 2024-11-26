@@ -20,7 +20,7 @@ I found two barbecue websites that align well with this concept: [Smoke and Bone
 ### Colors
 - **Primary**: `#FED766`
 - **Neutral**: `#fffcf0`, `#040706`
-- **Highlight**: `#FE4A49`
+- **Highlight**: `#8E0101`
 
 ### Images
 Existing logos and photos from the original site will be used. Photos from unplash will be used as well.
