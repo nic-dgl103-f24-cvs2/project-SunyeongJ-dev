@@ -336,6 +336,7 @@ div .no-border {
 
 .services-section div {
   padding: 20px 0;
+  margin: 0 20px;
 }
 
 .services-section img {
@@ -363,8 +364,11 @@ div .no-border {
 
 .services-section p {
   margin: 0;
-  padding: 0 30px;
   color: #4b4b4b;
+}
+
+.border-bottom {
+  border-bottom: 1px solid #04070673;
 }
 
 /* -------- Large Devices (desktops, 1200px and up) -------- */
