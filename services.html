@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Big Brisket Barbecue Menu</title>
+    <title>Big Brisket Barbecue Services</title>
     <link rel="stylesheet" href="style.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -15,7 +15,18 @@
       src="https://kit.fontawesome.com/bbb960f30f.js"
       crossorigin="anonymous"
     ></script>
+    <script>
+      function hamburgerMenu() {
+        var x = document.getElementById("navbar");
+        if (x.style.display === "flex") {
+          x.style.display = "none";
+        } else {
+          x.style.display = "flex";
+        }
+      }
+    </script>
   </head>
+
   <body class="content-width">
     <header>
       <div>
@@ -61,7 +72,6 @@
             height="200"
             src="https://www.youtube.com/embed/ozBANjzNVgQ?si=uzqSwdZogUMG1S68"
             title="YouTube video player"
-            frameborder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
             referrerpolicy="strict-origin-when-cross-origin"
             allowfullscreen
@@ -115,7 +125,7 @@
 
     <footer>
       <div class="container">
-        <img src="images/logo.png" alt="Big Brisket Barbecue logo" /
+        <img src="images/logo.png" alt="Big Brisket Barbecue logo"
         width="100">
         <nav>
           <ul>
@@ -140,14 +150,4 @@
     </footer>
   </body>
 
-  <script>
-    function hamburgerMenu() {
-      var x = document.getElementById("navbar");
-      if (x.style.display === "flex") {
-        x.style.display = "none";
-      } else {
-        x.style.display = "flex";
-      }
-    }
-  </script>
 </html>

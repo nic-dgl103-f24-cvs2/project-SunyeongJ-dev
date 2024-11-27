@@ -160,6 +160,7 @@ header div a {
 
 .location iframe {
   margin-bottom: 30px;
+  border: 0px;
 }
 
 .location table {
