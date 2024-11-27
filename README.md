@@ -1,5 +1,5 @@
 # Project Website Plan
-This website is for educational purposes only and is not a real business.
+This website was created for educational purposes.
 
 
 ## 1. Project Summary
