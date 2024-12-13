@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Big Brisket Barbecue Services</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400..900&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/bbb960f30f.js"
+      crossorigin="anonymous"
+    ></script>
+    <script>
+      function hamburgerMenu() {
+        var x = document.getElementById("navbar");
+        if (x.style.display === "flex") {
+          x.style.display = "none";
+        } else {
+          x.style.display = "flex";
+        }
+      }
+    </script>
+  </head>
+
+  <body class="content-width">
+    <header>
+      <div>
+        <img
+          src="images/logo.png"
+          alt="Big Brisket Barbecue logo"
+          width="130"
+        />
+        <a href="javascript:void(0);" class="icon" onclick="hamburgerMenu()">
+          <i class="fa-solid fa-bars"></i>
+        </a>
+      </div>
+      <nav>
+        <ul id="navbar">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="menu.html">Menu</a></li>
+          <li><a href="services.html">Services</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section class="services-section">
+        <h1>Smoker Rentals &amp; Brisket Services</h1>
+
+        <div>
+          <img src="images/rental-smoker.png" alt="Smoker Image" />
+          <h2>Rent Our Smoker</h2>
+          <h3>Smoke Your Own Meat!</h3>
+          <p>
+            The 500-gallon custom smoker is available for rent Sunday to
+            Thursday. It features counter-weight doors, a fixed mid-shelf, and
+            sliding upper shelves. Delivery is free within 20km of Courtenay
+            (extra charge beyond that). Kindling and wood provided. $450 for 24
+            hours, with $200 for each additional day.
+          </p>
+        </div>
+
+        <div class="border-bottom">
+          <h3>New to Smoking? <br />Check Out This Video!</h3>
+          <iframe
+            width="300"
+            height="200"
+            src="https://www.youtube.com/embed/ozBANjzNVgQ?si=uzqSwdZogUMG1S68"
+            title="YouTube video player"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin"
+            allowfullscreen
+          ></iframe>
+        </div>
+
+        <div class="border-bottom">
+          <img src="images/large-brisket.png" alt="Large Brisket Image" />
+          <h2>Customize Your Brisket</h2>
+          <h3>Feeding a Large Crowd? <br />Order More Brisket!</h3>
+          <p>
+            Our 500-gallon smoker can smoke over 200 pounds of brisket. Contact
+            us to discuss portions, quantity, and pricing for your event.
+          </p>
+        </div>
+
+        <div class="border-bottom">
+          <img src="images/fire-in-grill.png" alt="Fire in Grill Image" />
+          <h2>Special Requests?</h2>
+          <h3>Drop us a line! <br />We'll get back to you soon.</h3>
+          <p>
+            Do you have an upcoming event that needs some barbecue brisket? Need
+            a special order of smoked brisket on a day other than Saturday? Let
+            us know.
+          </p>
+        </div>
+      </section>
+
+      <section id="contact">
+        <h2>Contact Us</h2>
+        <div>
+          <form action="index.html" method="post">
+            <label for="name">Name</label>
+            <input type="text" name="name" id="name" />
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email" required />
+            <label for="message">Message</label>
+            <textarea
+              name="message"
+              id="message"
+              placeholder="How can we serve you?"
+              style="height: 200px"
+            ></textarea>
+            <label for="attachment">Attach Files</label>
+            <input type="file" id="attachment" name="attachment" />
+            <input class="button" type="submit" value="Send" />
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="container">
+        <img src="images/logo.png" alt="Big Brisket Barbecue logo"
+        width="100">
+        <nav>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="menu.html">Menu</a></li>
+            <li><a href="services.html">Services</a></li>
+          </ul>
+        </nav>
+        <div class="icons">
+          <a href="https://www.instagram.com/bigbrisketbarbecue/"
+            ><i class="fa-brands fa-instagram"></i
+          ></a>
+          <a href="https://www.x.com/bigBbarbecue"
+            ><i class="fa-brands fa-x-twitter"></i
+          ></a>
+        </div>
+      </div>
+      <p>
+        Copyright © 2024 Big Brisket Barbecue - All Rights Reserved. <br />
+        This is a fictional website that was designed and coded as an educational exercise. It is not intended to be seen outside of the class environment. None of the content and images were approved by the business owner.
+      </p>
+    </footer>
+  </body>
+
+</html>
